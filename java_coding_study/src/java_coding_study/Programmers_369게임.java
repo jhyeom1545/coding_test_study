@@ -2,7 +2,11 @@ package java_coding_study;
 
 public class Programmers_369게임 {
 	class Solution {
-	    public int solution(int order) {
+	    public Solution() {
+			// TODO Auto-generated constructor stub
+		}
+		
+		public int solution(int order) {
 	        int answer = 0;
 	        String strOrder = "" + order;
 	        for (int i = 0; i < strOrder.length(); i++) {
@@ -18,7 +22,7 @@ public class Programmers_369게임 {
 	
 	public static void main(String[] args) {
 		int number = 29423;
-		Solution s = new Solution();
-		System.out.println(s.solution(number));
+////		Solution s = new Solution();
+//		System.out.println(s.solution(number));
 }
 }
