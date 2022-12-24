@@ -1,11 +1,17 @@
-#include <stdio.h>
+// #include <stdio.h>
+#include <iostream>
+
+using namespace std;
 
 int main()
 {
-    printf("Hello World\n");
+    printf("Hello\nWorld\n");
+    int a= 0;
+    cin >> a;
+    cout << "aaa = " << a << endl;
     return 0;
 }
 
 // Command + Shift + P
 // Run by Language
-// cpp
+// cpp3
